@@ -83,5 +83,34 @@ h4.overviewtext {
 }
 
 h4.pictext {
-  margin-top: 0px;
+  margin-top: 10px;
+}
+
+.locationscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  position: relative;
+  top: 70px;
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+}
+
+h2.locationstext {
+  margin-bottom: 15px;
+}
+
+.addresses {
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
 }
