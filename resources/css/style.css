@@ -114,3 +114,19 @@ h2.locationstext {
     width: 300px;
     opacity: 1;
 }
+
+.footer {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer h5 {
+  margin: 15px;
+}
+
+.copyright h5 {
+  text-align: left;
+  margin-left: 20px;
+}
